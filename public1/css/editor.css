@@ -1,0 +1,117 @@
+.banner{
+    width: 100%;
+    height: 400px;
+    position: relative;
+    background: #e7e7e7;
+    background-size: cover;
+    background-position: center;
+    background-image:linear-gradient(#c99887,rgb(221, 145, 145))
+}
+
+.banner-upload-btn{
+    
+    position:absolute;
+    bottom: 0px;
+    right: 0px;
+    width: 200px;
+    height: 100px;
+    border-radius:100%;
+  
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    cursor: pointer;
+    margin-bottom:0%;
+    margin-right:0%;
+}
+
+.banner-upload-btn img{
+    width: 150px;
+    
+}
+
+.blog{
+    width: 70vw;
+    min-width: 400px;
+    height: 100px;
+    display: block;
+    margin: auto;
+    padding: 50px 0;
+}
+
+textarea::-webkit-scrollbar{
+    width: 10px;
+}
+
+textarea::-webkit-scrollbar-thumb{
+    background: rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.title,
+.article{
+    width: 100%;
+    min-height: 100px;
+    height: auto;
+    outline: none;
+    font-size: 50px;
+    font-weight: 400;
+    color: #393535;
+    resize: none;
+    border: none;
+    text-shadow: 0 0 2px;
+    padding: 10px;
+    border-radius: 10px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.title::placeholder,
+.article::placeholder{
+    color: #8b8787;
+}
+
+.article{
+    height: 500px;
+    font-size: 25px;
+    margin-top: 20px;
+    line-height: 30px;
+    font-weight: 200;
+    padding-bottom: 100px;
+    white-space: pre-wrap;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-shadow: 0 0 1px black;
+}
+
+
+.blog-options{
+    position:fixed;
+    bottom:0;
+    left: 0;
+    width: 100%;
+    height: 60px;
+    background: #fff;
+    z-index: 9;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    background-color: #dc8686;
+}
+
+.btn{
+    border: none;
+    outline: none;
+    cursor: pointer;
+    box-shadow:0 0 6px;
+}
+
+.btn.grey{
+    background: #e7f590;
+    color: #fff;
+    margin-left: 20px;
+    font-size: 18px;
+    color: black;
+    box-shadow: 0 0 6px ;
+}
+.btn.dark{
+    box-shadow: 0 0 6px grey;
+}
